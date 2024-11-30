@@ -9,9 +9,10 @@ from urllib.parse import quote
 
 # Page configuration
 st.set_page_config(page_title="BizBuddy", layout="wide", page_icon = "🤓")
-st.markdown("<h2 style='text-align: center;'>Lundy's Ice Cream</h2>", unsafe_allow_html=True)
 
+#Set Titles
 st.markdown("<h1 style='text-align: center;'>Welcome to BizBuddy: Let's Grow Your Digital Presence</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>Lundy's Ice Cream</h2>", unsafe_allow_html=True)
 
 def generate_seo_insights(search_data):
    # Prepare the search query list
